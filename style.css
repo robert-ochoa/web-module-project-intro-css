@@ -1,12 +1,41 @@
- 
-<style>
-    .box1 {
-        background-color: #FF764E;
+ .container {
+        color: #DDB9A3;
+        border: solid black;
+            }
+
+ h1, h2, h3 {
+   color: black;
+   text-align: center;
+            }
+
+.square {
+  background-color: #FF764E;
+  width: 100px;
+  display: inline-left;
+}
+
+.square0 {
+  background-color: #5ED3EB;
+  top: 50%;
+  width: 100px;
+  margin: 0 auto;
+  }
+
+.square1 {
+  background-color: #FFCD69;
+  width: 100px;
+  height: 100px;
+  margin-left: auto;
+}
+
+
+
+.truck {
+            background-color: palevioletred;
+            width: 10%; 
+            height: 25px;
+           }
+
+        .pic-container {
+            color: #F9E7DC;
         }
-    .box2 {
-        background-color: #5ED3EB;
-        }
-    .box3 {
-        background-color: #FFCD69;
-        }
-</style>
